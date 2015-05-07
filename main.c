@@ -19,10 +19,12 @@ int main(int argc, char *argv[]) {
 
 	if(ret_val == 0)
 	{
-		printOneEnviroment("$HOME");
+		printOneEnviroment("HOME");
 	}
 	
-	printOneEnviroment("HOME");
+//	printOneEnviroment("HOME");
+	printOneEnviroment("PATH");
+	printOneEnviroment("LOGNAME");
 
 	return 0;
 }
