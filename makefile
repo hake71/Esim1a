@@ -10,4 +10,9 @@ all: $(FILES) $(INCLUDE)
 clean:
 	rm -f *.o
 	
+run:
+	./$(EXE_NAME)
+
 rebuild: clean all
+
+build: clean all run
